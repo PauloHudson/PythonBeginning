@@ -4,7 +4,7 @@ for a in range(1, 7):
     if a % 2 == 0:
         i = i + a
     else:
-        print('Este não é um número par não havera soma')
+        print('Este não é um número par, não havera soma')
 print (f'A soma foi apenas realizada entre os pares = {i}')
 
 
