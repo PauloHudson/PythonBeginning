@@ -1,0 +1,5 @@
+a = float(input('escreva um numero: '))
+b = float(input('escreva outro numero: '))
+c = float(input('mais um corno: '))
+x = (a + b - c)
+print (x)
