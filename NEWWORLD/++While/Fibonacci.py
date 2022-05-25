@@ -1,9 +1,4 @@
 
-
-from re import A
-from turtle import xcor
-
-
 print('Sequencia de Fibonacci')
 print('Programa consiste em Digiar valor [N] e em sequência lhe mostrará a sequencia Fibonnaci deste número.')
 #Fibonnaci exemplo(número anterior + o sucessor.)
