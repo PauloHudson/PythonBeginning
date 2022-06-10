@@ -11,7 +11,7 @@ computador = randint(0, 15)
 contador = 0
 while True:
     pessoa = int(input('Digite um Valor: '))
-    print('=-=' * 15)
+    print('---' * 15)
     parimpar = input('Par ou Ímpar [I, P]:').upper()
     if parimpar == 'P':
         soma = (computador + pessoa)
@@ -19,15 +19,16 @@ while True:
             print(f'Você jogou {pessoa} e o Computador {computador}. Total = {computador + pessoa} (PAR)')
             print('---' * 15)
             print('Você Venceu.')
-            print('=-=' * 15)
+            print('---' * 15)
             print('Vamos Jogar NOVAMENTE...')
-            print('___' * 15)
+            print('---' * 15)
             contador = contador + 1
         else:
             print('---' * 15)
             print(f'Você jogou {pessoa} e o Computador {computador}. Total = {computador + pessoa} (IMPAR)')
             print('=-=' * 15)
             print(f'GAME OVER, Você Venceu {contador} Vezes')
+            print('><' * 15)
             break
     if parimpar == 'I':
         soma = (computador + pessoa)
@@ -35,13 +36,14 @@ while True:
             print(f'Você jogou {pessoa} e o Computador {computador}. Total = {computador + pessoa} (IMPAR)')
             print('---' * 15)
             print('Você Venceu.')
-            print('=-=' * 15)
+            print('---' * 15)
             print('Vamos Jogar NOVAMENTE...')
-            print('___' * 15)
+            print('---' * 15)
             contador = contador + 1
         else:
             print('---' * 15)
             print(f'Você jogou {pessoa} e o Computador {computador}. Total = {computador + pessoa} (PAR)')
             print('=-=' * 15)
             print(f'GAME OVER, Você Venceu {contador} Vezes')
+            print('><' * 15)
             break
