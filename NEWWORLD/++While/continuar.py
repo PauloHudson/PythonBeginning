@@ -1,7 +1,6 @@
 #validador de numero3
 #digitar vários valores e o programa vai pedir para parar
 #quando parar vai ser digitado o menor e maior valor
-i = 0
 array = []
 comecar = str(input('Começar -- [S or N]: ')).upper()
 if comecar == 'N':

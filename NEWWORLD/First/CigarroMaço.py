@@ -13,4 +13,4 @@ anoos = float(lifetime / 365)
 #anos quantos dias ele perdeu fumando
 
 print (f'Vc fumou {cigarros} cigarros durante a vida')
-print (f'Equivalente a perder cerca de {lifetime} dias de vida ou {anoos} anos ')
+print (f'Equivalente a perder cerca de {lifetime} dias de vida ou {anoos:.2} anos ')
