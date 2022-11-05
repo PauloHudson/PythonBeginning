@@ -11,3 +11,4 @@ if media >= 7:
     print('A situação é aprovado')
 else: 
     print('Reprovado')
+

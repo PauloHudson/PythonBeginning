@@ -20,10 +20,10 @@ while True:
     mega.clear()   #criando uma lista dentro da outra e apos isso ele limpa.
     if len(sena) == a:
             break
-print(sena)
+#print(sena)
 for i, k in enumerate(sena):
         print(f'jogo {i+1}: {sorted(k)}')
-        sleep(0.6)
+        sleep(0.8)
 print('=-='*13)
 print(f'{"Boa Sorte":^42}')
 print('=-='*13)
